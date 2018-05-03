@@ -8,5 +8,5 @@ The third operation gets the negative from the image. Since in this operation th
 
 The last procedure is to convert the range of intensities of the input image. Considering imgMax and imgMin the maximum and minimum intensity of the image respectively and img the pixel of the original image being altered. In addition, assuming MaxN as the new maximum intensity value and MinN as the new minimum intensity, the calculation used was:
 
-![\Large Norm =\frac{{(MaxN − MinN)}}{(imgMax − imgMin)}∗(img − imgMin) + MinN](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Cqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+>Norm =[(MaxN − MinN)/(imgMax − imgMin)]∗(img − imgMin) + MinN
 
