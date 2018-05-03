@@ -10,3 +10,8 @@ The last procedure is to convert the range of intensities of the input image. Co
 
 >Norm =[(MaxN − MinN)/(imgMax − imgMin)]∗(img − imgMin) + MinN
 
+## Expected Results
+It can be observed in the images below, the input image, its negative and normalized versions.
+
+![concept](butterfly.png)  ![concept](butterflyNegative.png)  ![concept](butterflyNormalized.png)
+
